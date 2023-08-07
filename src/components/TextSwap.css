@@ -1,0 +1,42 @@
+.text-swap {
+  justify-content: center;
+  display: flex;
+  line-height: 40px;
+  height: 40px;
+}
+
+.text-swap .prefix {
+  height: 75px;
+}
+
+.text-swap .visble-word {
+  height: 40px;
+  overflow: hidden;
+}
+
+.text-swap .words-container {
+  animation: rotate 8s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  40% {
+    transform: translateY(-40px);
+  }
+  45%,
+  60% {
+    transform: translateY(-80px);
+  }
+  65%,
+  80% {
+    transform: translateY(-40px);
+  }
+  85%,
+  100% {
+    transform: translateY(0);
+  }
+}

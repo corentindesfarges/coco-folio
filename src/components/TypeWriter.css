@@ -1,0 +1,10 @@
+.cursor {
+  animation: blink 1s steps(17) infinite;
+  transition: all ease;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
