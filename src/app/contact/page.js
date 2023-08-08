@@ -5,9 +5,9 @@ import Logo from "@/components/Logo"
 export default function Contact() {
   return (
     <main className="flex min-h-screen lg:min-h-[unset] flex-col items-center p-2 lg:pt-0 lg:p-10 w-full">
-      <div className="relative lg:fixed bg-blue-crackled border-0 p-10 z-10 w-full lg:max-w-4xl text-sm lg:flex items-center">
+      <div className="relative lg:fixed bg-blue-crackled border-0 p-4 lg:p-10 z-10 w-full lg:max-w-4xl text-sm lg:flex items-center">
         <Logo />
-        <div className="flex flex-col text-center lg:text-left">
+        <div className="flex flex-col text-center lg:text-left m-4">
           <h1 className="lg:ml-10 text-3xl lg:text-5xl font-bold">{`Rencontrons-nous !`}</h1>
         </div>
       </div>
@@ -19,6 +19,12 @@ export default function Contact() {
             📅 Réservez un premier <span className="underline">rendez-vous</span> !
           </h3>
         </a>
+        <h4 className="text-xl lg:text-2xl font-light">
+          Vous ne trouvez pas de créneau ?<br />
+          <a href="mailto:corentin.desfarges+pro@gmail.com">
+            Contactez-moi par <span className="underline hover:text-white/80 transition-colors">courriel</span>
+          </a>
+        </h4>
       </div>
     </main>
   )

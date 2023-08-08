@@ -15,9 +15,9 @@ export default function Parcours() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2 lg:pt-0 lg:p-10">
-      <div className="relative lg:fixed bg-blue-crackled border-0 p-10 z-10 w-full lg:max-w-4xl text-sm lg:flex items-center shadow-[0_4px_2px_-2px_rgba(0,0,0,0.05)]">
+      <div className="relative lg:fixed bg-blue-crackled border-0 p-4 lg:p-10 z-10 w-full lg:max-w-4xl text-sm lg:flex items-center shadow-[0_4px_2px_-2px_rgba(0,0,0,0.05)]">
         <Logo />
-        <div className="flex flex-col text-center lg:text-left">
+        <div className="flex flex-col text-center lg:text-left m-4">
           <h1 className="lg:ml-10 text-3xl lg:text-5xl font-bold">{`Mon parcours`}</h1>
           <h1 className="lg:ml-10 text-2xl lg:text-5xl font-extralight">{`De la France au Québec !`}</h1>
         </div>

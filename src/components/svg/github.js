@@ -1,7 +1,7 @@
 export default function GitHub() {
   return (
     <svg
-      className="mx-auto w-6 h-12 text-gray-800 dark:text-white"
+      className="mx-auto w-6 h-12 text-white"
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
       viewBox="0 0 20 20"
