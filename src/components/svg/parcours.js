@@ -1,7 +1,7 @@
 export default function LinkedIn() {
   return (
     <svg
-      className="w-7 h-7 text-white"
+      className="mx-auto w-6 h-6 text-white"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

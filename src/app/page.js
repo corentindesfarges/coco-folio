@@ -85,10 +85,10 @@ export default function Home() {
           {introductions.map((intro, index) => (
             <div key={index} className="rounded-xl bg-opacity-25 bg-black p-5 mb-3 w-full lg:w-2/3">
               <h5 className="text-xl font-bold">{intro.title}</h5>
-              <span className="text-lg font-extralight">{intro.description}</span>
-              <span className="text-lg font-extralight italic">{intro.quote}</span>
-              <div className="text-lg font-normal">{intro.highlight}</div>
-              <div className="text-2xl font-black text-center pt-8">{intro.conclusion}</div>
+              {intro.description && <span className="text-lg font-extralight">{intro.description}</span>}
+              {intro.quote && <span className="text-lg font-extralight italic">{intro.quote}</span>}
+              {intro.highlight && <div className="text-lg font-normal">{intro.highlight}</div>}
+              {intro.conclusion && <div className="text-2xl font-black text-center pt-8">{intro.conclusion}</div>}
             </div>
           ))}
         </div>
